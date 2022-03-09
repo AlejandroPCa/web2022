@@ -1,4 +1,4 @@
-.header-container{
+#header .header-container{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -9,6 +9,7 @@
 #header .caja1{
     flex-grow: 2;
     flex-basis: 10%;
+    padding-left:100px
 }
 
 #header .caja2{
@@ -42,8 +43,6 @@
   #header .menu a:hover, .menu .active, .menu .active:focus, .menu li:hover > a {
     color: #5fcf80!important;
   }
-  
-  
   
   #header {
     background: #fff;
