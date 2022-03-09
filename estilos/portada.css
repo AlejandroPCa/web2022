@@ -49,7 +49,7 @@
   .porque-flex-container{
       display: flex;    
       justify-content: center;
-      padding: 80px;
+      padding: 80px 10px 0 10px;
       width: 100%;
       margin: 0 auto;
       align-content: center;
@@ -99,6 +99,14 @@
       margin-top: 0;
       margin-bottom: 1rem;
       text-align: center;
+  }
+
+  .pqtarjeta p{
+    font-size: 18px;
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      text-align: left;
   }
   
   

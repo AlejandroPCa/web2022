@@ -1,0 +1,59 @@
+.estudios-container-flex{
+
+	display: flex;    
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+#estudios .estudios-caja1{
+    flex-grow: 2;
+    flex-basis: 40%;
+}
+#estudios .estudios-caja2{
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+#estudios .estudios-caja3{
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+#estudios .estudios-caja4{
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+#estudios .iconos{
+	display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s;
+  border: 1px solid #eef0ef;
+  padding-left: 25%;
+}
+#estudios .iconos h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px; 
+}
+#estudios .iconos h3 a {
+  color: #37423b;
+  transition: 0.3s;
+  text-decoration: none;
+}
+#estudios .iconos:hover {
+  border-color: #5fcf80;
+}
+#estudios .iconos:hover h3 a {
+  color: #5fcf80;
+}
+#estudios{
+	position: relative;
+	top: -50vh;
+	padding-top: 0px;
+	font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
