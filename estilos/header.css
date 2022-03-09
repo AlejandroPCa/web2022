@@ -41,7 +41,7 @@
   }
   
   #header .menu a:hover, .menu .active, .menu .active:focus, .menu li:hover > a {
-    color: #5fcf80!important;
+    color: #0011ff!important;
   }
   
   #header {
@@ -69,12 +69,12 @@
   }
   
   #header a {
-    color: #5fcf80;
+    color: #0011ff;
     text-decoration: none;
   }
   
   #header a:hover {
-    color: #86db9f;
+    color: #0011ff;
     text-decoration: none;
    
   }
